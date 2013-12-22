@@ -11,6 +11,11 @@ source ./NeoBundlefile
 filetype plugin indent on
 EOF
 
+cat > .neobundlerc <<EOF
+.neobundle/
+.neobundlerc
+EOF
+
 if [ -s .neobundle ] ; then
   cd .neobundle && git pull --rebase && cd ..
 else
