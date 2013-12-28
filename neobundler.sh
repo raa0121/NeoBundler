@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/bin/sh
 
 cat > .neobundlerc <<EOF
 set nocompatible
@@ -11,7 +11,7 @@ source ./NeoBundlefile
 filetype plugin indent on
 EOF
 
-cat > .neobundlerc <<EOF
+cat > .gitignore <<EOF
 .neobundle/
 .neobundlerc
 EOF
